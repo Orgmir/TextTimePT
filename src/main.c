@@ -95,9 +95,8 @@ static void update_time() {
   struct tm *tick_time = localtime(&temp);
   int minute = tick_time->tm_min;
   int hour = tick_time->tm_hour;
-  //int minute = 17;
-  //int hour = 4;
-  
+  //int hour = 17;
+  //int minute = 36;
   
   if(minute < 20){
     memset(row_2_buffer, 0, BUFFER_SIZE);
