@@ -7,25 +7,7 @@
     "longName": "TextTimePT",
     "projectType": "native",
     "resources": {
-        "media": [
-            {
-                "file": "data/Sansation_1.3_ReadMe.txt",
-                "name": "SANSATION_FONT_README",
-                "type": "raw"
-            },
-            {
-                "characterRegex": "[^wykABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789~!@#$%& *()_+[\\]{}\\\\|;:<>?]",
-                "file": "fonts/Sansation_Bold_42.ttf",
-                "name": "FONT_SANSATION_BOLD_30",
-                "type": "font"
-            },
-            {
-                "characterRegex": "[^wykABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789~!@#$%& *()_+[\\]{}\\\\|;:<>?]",
-                "file": "fonts/Sansation_Light_42.ttf",
-                "name": "FONT_SANSATION_LIGHT_28",
-                "type": "font"
-            }
-        ]
+        "media": []
     },
     "shortName": "TextTimePT",
     "uuid": "6a8c32f4-46a6-4cc4-bf2a-7c3c296b66d2",
