@@ -95,12 +95,15 @@ static void update_time() {
   struct tm *tick_time = localtime(&temp);
   int minute = tick_time->tm_min;
   int hour = tick_time->tm_hour;
-  //int hour = 17;
-  //int minute = 36;
+  //int hour = 3;
+  //int minute = 00;
   
   if(minute < 20){
     memset(row_2_buffer, 0, BUFFER_SIZE);
     strcat(row_2_buffer, MIN[minute]);
+    if(hour != 1 && hour != 13){
+      strcat(row_2_buffer, "s");
+    }
     text_layer_set_text(s_line2, row_2_buffer);
     
     if(!layer_get_hidden((Layer *)s_line3)){
